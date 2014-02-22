@@ -1,0 +1,25 @@
+body {
+  padding: 40px;
+  font-size: 25px;
+  font-family: "Lucida Grande";
+  line-height: 1.2;
+}
+
+.main {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.persons {
+  background: #eee;
+  padding: 20px;
+}
+
+.teams {
+  background: #ddd;
+  padding: 20px;
+}
+
+h2 {
+  text-decoration: underline;
+}

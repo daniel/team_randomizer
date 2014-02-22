@@ -1,0 +1,11 @@
+<template name="persons">
+  <div class="persons">
+    <h2>Persons</h2>
+    {{#each persons}}
+      {{> person}}
+    {{/each}}
+
+    <input type="button" value="Randomize a team" id="randomize" class="btn btn-success" />
+
+  </div>
+</template>

@@ -1,0 +1,22 @@
+<template name="main">
+  <div class="main">
+    <h1>Team randomizer!</h1>
+
+    <label>Add a person</label>
+    <input type="textfield" value="" id="name" placeholder="Name" />
+    <input type="button" value="Add" id="add_name" class="btn btn-primary" />
+    
+  </div>
+
+  <div class="row">
+    <div class="span6">
+      {{> persons}}
+    </div>
+    <div class="span6">
+      {{> results}}
+    </div>
+  </div>
+
+</template>
+
+
