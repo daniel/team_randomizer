@@ -27,6 +27,10 @@ if (Meteor.isClient) {
       Persons.remove({_id: person2._id});
 
       Teams.insert({name1: person1.name, name2: person2.name});
+    },
+
+    'click #remove_teams' : function () {
+      Meteor.call('removeAllTeams');
     }
 
   });
