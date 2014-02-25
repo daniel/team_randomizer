@@ -7,7 +7,8 @@ Template.results.teams = function () {
 };
 
 Template.main.events({
-  'click #add_name' : function () {
+  'submit #name_form' : function (e) {
+    e.preventDefault();
     name = $('#name').val();
     console.log(name);
     Persons.insert({name: name});
