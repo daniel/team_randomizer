@@ -11,6 +11,7 @@ Template.main.events({
     name = $('#name').val();
     console.log(name);
     Persons.insert({name: name});
+    $('#name').val('');
   },
 
   'click #randomize' : function () {
