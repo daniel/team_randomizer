@@ -16,6 +16,7 @@ Template.main.events({
   },
 
   'click #randomize' : function () {
+    if (Persons.find().count() < 2) { return }
     var person1 = Persons.findOne();
     Persons.remove({_id: person1._id});
 
