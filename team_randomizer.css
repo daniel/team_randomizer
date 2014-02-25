@@ -10,15 +10,12 @@ body {
   margin-bottom: 20px;
 }
 
-.persons {
+.box {
   background: #eee;
   padding: 20px;
 }
 
-.teams {
-  background: #ddd;
-  padding: 20px;
-}
+.box input { margin-top: 10px; }
 
 h2 {
   text-decoration: underline;
